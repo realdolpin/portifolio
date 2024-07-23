@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    border: none;
     outline: none;
     scroll-behavior: smooth;
     font-family: "poppins",sans-serif;
@@ -113,7 +114,7 @@ span{
 }
 
 .home-content h1{
-    font-size: 7rem;
+    font-size: 5rem;
     font-weight: 700;
     margin-top: 1.5rem;
     line-height: 1;
@@ -289,7 +290,7 @@ span{
     65%,
     80%,
     85%{
-        width: calc(100% + 8px) ;
+        width: calc(100% + 8px);
     }
 }
 
@@ -461,7 +462,7 @@ span{
     margin: auto;
 }
 
-.testimonilas{
+.testimonials{
     background: var(--second-bg-color);
 }
 .testimonials-box{
@@ -473,7 +474,7 @@ span{
 
 }
 
-.testimonilas .heading{
+.testimonials .heading{
     margin-bottom: 5rem;
 }
 
@@ -486,7 +487,7 @@ span{
 
 .wrapper{
     display: grid;
-    grid-template-columns: repeat(3.1fr);
+    grid-template-columns: repeat(3,1fr);
     gap: 3rem;
 }
 
@@ -528,8 +529,7 @@ span{
 }
 
 .contact{
-    background-color: var(--bg-color
-    );
+    background-color: var(--bg-color);
 
 }
 
@@ -559,7 +559,7 @@ span{
     padding: 2.5rem;
     font-size: 1.8rem;
     color: var(--text-color);
-    background: var(--second-bg-colorbg-color);
+    background: var(--second-bg-color);
     border-radius: 2rem;
     border: 2px solid var(--main-color);
     margin: 1.5rem 0;
@@ -677,7 +677,7 @@ span{
     }
 
     .testimonials .wrapper{
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
 
     .contact form{
@@ -703,7 +703,6 @@ span{
         padding: 1rem 3%;
         background: rgba(0, 0, 0, 0.8);
         backdrop-filter: blur(20px);
-        border-bottom-left-radius: 2rem;
         border-bottom-left-radius: 2rem;
         border-left: 2px solid var(--main-color);
         border-bottom: 2px solid var(--main-color);
